@@ -85,7 +85,6 @@ main::before{
   content:"";
   position:absolute;
   inset:0;
-  background:radial-gradient(circle,var(--ink) 0 34%,transparent 36%) 0 0/22px 22px;
   opacity:.14
   ;-webkit-mask-image:radial-gradient(ellipse at 50% 100%,#000 0,transparent 70%);
   mask-image:radial-gradient(ellipse at 50% 100%,#000 0,transparent 70%)
