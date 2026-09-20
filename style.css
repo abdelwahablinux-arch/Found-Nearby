@@ -1,15 +1,17 @@
 :root{
-  --bg:#ffffff; --ink:#000000; --g3:#c8c8c8; --g5:#6b6b6b; --g6:#3a3a3a;
+  --bg:#000000;
+  --ink:#ffffff;
+  --g3:#c8c8c8;
+  --g5:#6b6b6b;
+  --g6:#3a3a3a;
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px);
   padding-bottom:env(safe-area-inset-bottom,0px);
 }
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){--bg:#000000;--ink:#ffffff;--g3:#3a3a3a;--g5:#9a9a9a;--g6:#c8c8c8}
-}
-:root[data-theme="dark"]{--bg:#000000;--ink:#ffffff;--g3:#3a3a3a;--g5:#9a9a9a;--g6:#c8c8c8}
 
-*{box-sizing:border-box;margin:0}
+*{box-sizing:border-box;
+  margin:0
+}
 html,body{
   height:100%
 }
@@ -69,7 +71,7 @@ a{
 }
 @keyframes slide{to{transform:translateX(-50%)}}
 
-/* stage */
+
 main{
   flex:1;
   position:relative;
