@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FOUND NEARBY-under construction</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="pin" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M12 1.5C7.3 1.5 3.6 5.2 3.6 9.8c0 6.1 8.4 13.7 8.4 13.7s8.4-7.6 8.4-13.7C20.4 5.2 16.7 1.5 12 1.5Zm0 5a3.3 3.3 0 1 1 0 6.6 3.3 3.3 0 0 1 0-6.6Z"/></symbol>
+</svg>
+<div class="tape" aria-hidden="true">
+  <div class="track" id="track-1"><span>UNDER CONSTRUCTION <svg viewBox="0 0 24 24"><use href="#pin"/></svg> FOUND NEARBY <svg viewBox="0 0 24 24"><use href="#pin"/></svg> COMING SOON <svg viewBox="0 0 24 24"><use href="#pin"/></svg></span></div>
+</div>
+<main>
+    <span class="wm"><b>F<svg viewBox="0 0 24 24" aria-hidden="true"><use href="#pin"/></svg>UND</b><span class="lt">NEARBY</span></span>
+    <div class="drop" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><use href="#pin"/></svg><i></i>
+    </div>
+    <h1><span class="lt">Still being</span><br>found.</h1>
+    <p>This site is under construction. FOUND NEARBY is going to be a marketplace where thrifters sell clothes, shoes, bags, records, furniture, pins, stickers and anything else with a story. We're still building the platform, so check back soon. Until then, go through your closet, your crates and your garage. Someone nearby is looking for what's in there.</p>
+    <div class="meter" role="img" aria-label="7 of 10 shelves up">
+      <div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="blink"></i><i></i><i></i></div>
+      <small>7 of 10 shelves up</small>
+    </div>
+    <div class="links" style="display:none;">
+      <a class="btn solid" href="#">Follow on Instagram</a>
+      <a class="btn" href="#">Follow on TikTok</a>
+    </div>
+  </div>
+  <p class="fine">© 2026 Found Nearby. Find your next favorite thing.</p>
+</main>
+<div class="tape rev" aria-hidden="true">
+  <div class="track" id="track-2"><span>UNDER CONSTRUCTION <svg viewBox="0 0 24 24"><use href="#pin"/></svg> FIND YOUR NEXT FAVORITE THING <svg viewBox="0 0 24 24"><use href="#pin"/></svg> BACK SOON <svg viewBox="0 0 24 24"><use href="#pin"/></svg></span></div>
+</div>
+<script>
+for (const id of ['track-1','track-2']) {
+  const t = document.getElementById(id), s = t.firstElementChild;
+  for (let i = 0; i < 5; i++) t.appendChild(s.cloneNode(true));
+}
+</script>
+</body>
+</html>
