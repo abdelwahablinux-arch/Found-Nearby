@@ -1,6 +1,6 @@
-# Wear-Your-Scene
+# Found-Nearby
 just a small project that i hope it works :3
 
 
-i created this project in hopes that people that are alternative in lebanon, would have an easier time finding cool clothes/accessories locally without having to ship them from other countries. for now, i don't intend to gain any money out of it, but if the time comes where i can't really pay for the hosting no more, i might charge a TINY fee so that i'd be able to fund it. thank you so much !! :DD 
+i created this project in hopes that people that are alternative in lebanon, would have an easier time finding cool clothes/accessories locally without having to ship them from other countries. sellers can list their items on this platform making it easier for users to find items without the pain of going to tens of stores for one piece of clothing. both easier for the customer and the seller !! :DD 
 (READ THE LICENSE)
